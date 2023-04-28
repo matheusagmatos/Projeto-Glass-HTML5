@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/* formatação do body */
+body{
+    /* background-image: url(./2029165.jpg); */
+    background-color: azure;;
+    color: rgb(0, 0, 0, 1);
+}
+
+/* formatação do parágrafo */
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/* formatação de imagens com legenda */
+figure.foto-legenda{
+    border: 8px solid black;
+}
+
+figure.foto-legenda img{
+    width: 30%;
+    height: 30%;
+}
