@@ -6,8 +6,17 @@
 /* formatação do body */
 body{
     /* background-image: url(./2029165.jpg); */
+    font-family: arial, sans-serif;
     background-color: azure;;
-    color: rgb(0, 0, 0, 1);
+    color: rgb(0, 0, 0);
+}
+
+a{
+    color: rgb(99, 99, 99);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
 
 div#interface {
@@ -117,16 +126,32 @@ figure.foto-legenda:hover figcaption{
 
 section#corpo{
     display: block;
-    width: 500px;
+    width: 490px;
     float: left;
     border-right: 1px solid rgb(125, 125, 125);
     padding: 15px;
 }
 
 aside#lateral{
+    background-color: rgb(218, 218, 218);
     display: block;
     width: 350px;
     float: right;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+aside#lateral h1{
+    color: rgb(75, 75, 75);
+    font-family: logo-Google-Glass, sans-serif;
+}
+
+aside#lateral h2{
+    font-size: 13pt;
+    color: white;
+    background-color: rgb(140, 140, 140);
+    padding-left: 10px;
 }
 
 footer#rodape p{
@@ -134,4 +159,73 @@ footer#rodape p{
     padding-top: 20px;
     text-align: center;
     border-top: 1px solid rgb(125, 125, 125);
+}
+
+table#tabelaspec {
+    border: 1px solid gray;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec td{
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle
+}
+
+table#tabelaspec td.ce{
+    text-align: right;
+    background-color: dimgrey;
+    color: white;
+}
+
+table#tabelaspec td.cd{
+    text-align: left;
+    background-color: gainsboro;
+}
+
+table#tabelaspec caption#titulotabela{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+table#tabelaspec caption span{
+    display: block;
+    color: rgb(31, 31, 31);
+    float: right;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+article#noticia-principal h2{
+    font-size: 13pt;
+    color: rgb(45, 45, 45);
+    background-color: rgb(196, 196, 196);
+    padding-left: 10px;
+}
+
+article#noticia-principal h3#autor{
+    font-size: 15px;
+}
+
+header#cabecalho-artigo h1{
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: rgb(75, 75, 75);
+    font-family: logo-Google-Glass;
+}
+
+header#cabecalho-artigo h3{
+    font-size: 20px;
+    color: rgb(81, 81, 81);
+}
+
+header#cabecalho-artigo h4{
+    text-align: right;
+    font-size: 12px;
 }
