@@ -41,13 +41,12 @@ header#cabecalho h1{
     font-size: 40px;
     color: rgb(75, 75, 75);
     padding: 0px;
-    text-shadow: 1px 1px 1px rgb(56, 56, 56);
     margin-bottom: -10px;
     
 }
 
 header#cabecalho h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: logo-Google-Glass, Helvetica, sans-serif;
     font-size: 20px;
     color: rgb(113, 113, 113);
     padding: 0px;
@@ -114,4 +113,25 @@ figure.foto-legenda figcaption{
 
 figure.foto-legenda:hover figcaption{
     opacity: 100%;
+}
+
+section#corpo{
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid rgb(125, 125, 125);
+    padding: 15px;
+}
+
+aside#lateral{
+    display: block;
+    width: 350px;
+    float: right;
+}
+
+footer#rodape p{
+    clear: both;
+    padding-top: 20px;
+    text-align: center;
+    border-top: 1px solid rgb(125, 125, 125);
 }
